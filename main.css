@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+}
+
+.container {
+    width: 280px;
+}
+
+.cards__container {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card__item {
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+.card__active {
+    opacity: 1;
+    border-bottom: 1px green solid;
+}
+
+.card__maestro {
+    background-image: url(images/62643f0d8add4b9cba5d.jpg);
+}
+
+.card__mastercard {
+    background-image: url(images/2bf382f4fd412513789c.jpg);
+}
+
+.card__mir {
+    background-image: url(images/aea641b3bd0b86db38e9.jpg);
+}
+
+.card__visa {
+    background-image: url(images/81932dcf9b2642ba2f20.jpg);
+}
+
+.card__american__express {
+    background-image: url(images/c8bf9fe3c8266a2ba256.jpg);
+}
+
+.card__text {
+    position: fixed;
+    transform: scale(0);
+}
+
+/*# sourceMappingURL=main.css.map*/
