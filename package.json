@@ -27,6 +27,7 @@
     "jest-puppeteer": "^9.0.1",
     "mini-css-extract-plugin": "^2.7.6",
     "puppeteer": "^21.3.8",
+    "raw-loader": "^4.0.2",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"

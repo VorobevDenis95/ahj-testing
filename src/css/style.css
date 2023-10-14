@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+}
+
+.container {
+    width: 280px;
+}
+
+.cards__container {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card__item {
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+.card__active {
+    opacity: 1;
+    border-bottom: 1px green solid;
+}
+
+.card__maestro {
+    background-image: url('../img/bank_card_maestro.jpg');
+}
+
+.card__mastercard {
+    background-image: url('../img/bank_card_mastercard.jpg');
+}
+
+.card__mir {
+    background-image: url('../img/bank_card_mir.jpg');
+}
+
+.card__visa {
+    background-image: url('../img/bank_card_visa.jpg');
+}
+
+.card__american__express {
+    background-image: url('../img/bank-card-american.jpg');
+}
+
+.card__text {
+    position: fixed;
+    transform: scale(0);
+}

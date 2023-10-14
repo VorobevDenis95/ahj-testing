@@ -11,6 +11,7 @@ export default function validator(numCard) {
     }
   }
   const result = numCardArr.reduce((acc, sum) => acc + sum, 0);
+
   if (result % 10 === 0) {
     return true;
   }
